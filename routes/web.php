@@ -20,4 +20,5 @@ Route::get('/', function () {
 
 Route::group(['prefix' => 'admin'], function () {
     Route::get('dashboard','pagesController@dashboard')->name('admin.dashboard');
+    Route::resource('student','studentController');
 });

@@ -1,5 +1,5 @@
 @extends('dashboard.layouts.master')
-@section('title','Dashboard')
+@section('title','School Management System')
 @section('css')
 
 @endsection
@@ -9,9 +9,7 @@
         <!-- Page content-->
         <div class="content-wrapper">
             <div class="content-heading">
-                <div>Page title
-                    <small>Subtitle</small>
-                </div>
+                <div>Dashboard</div>
             </div>
             <div class="row">
                 <div class="col-xl-12">

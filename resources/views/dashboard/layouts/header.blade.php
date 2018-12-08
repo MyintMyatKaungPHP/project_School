@@ -3,12 +3,13 @@
     <nav class="navbar topnavbar">
         <!-- START navbar header-->
         <div class="navbar-header">
-            <a class="navbar-brand" href="#/">
+            <a class="navbar-brand" href="{{route('admin.dashboard')}}">
                 <div class="brand-logo">
-                    <img class="img-fluid" src="{{asset('dashboard_assets/img/logo.png')}}" alt="App Logo">
+                    <img class="img-fluid" src="{{asset('dashboard_assets/img/school.png')}}" style="width: 30px !important;" alt="App Logo">
+                    <b style="font-size: 15px; color: black;">School Management</b>
                 </div>
                 <div class="brand-logo-collapsed">
-                    <img class="img-fluid" src="{{asset('dashboard_assets/img/logo-single.png')}}" alt="App Logo">
+                    <img class="img-fluid" src="{{asset('dashboard_assets/img/school.png')}}" alt="App Logo">
                 </div>
             </a>
         </div>
